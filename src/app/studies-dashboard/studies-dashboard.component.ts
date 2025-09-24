@@ -1,12 +1,7 @@
+import {Component, EventEmitter, Input, Output, ViewChild} from '@angular/core';
 import {
-  Component,
-  EventEmitter,
-  Input,
-  Output,
-  ViewChild
-} from '@angular/core';
-import {
-  ApiService, ProgressStatusLabels,
+  ApiService,
+  ProgressStatusLabels,
   Study,
   StudyStatus,
   StudyStatusLabels,
@@ -18,7 +13,9 @@ import {
 import {TaskLane} from '../_interfaces/task-lane';
 import {StudiesByStatus} from '../studies/studies.component';
 import {MatDialog} from '@angular/material/dialog';
-import {ConfirmStudyStatusDialogComponent} from '../_dialogs/confirm-study-status-dialog/confirm-study-status-dialog.component';
+import {
+  ConfirmStudyStatusDialogComponent
+} from '../_dialogs/confirm-study-status-dialog/confirm-study-status-dialog.component';
 import {ConfirmStudyStatusDialogData} from '../_interfaces/dialog-data';
 import {StudyAction} from '../_interfaces/study-action';
 import {cloneDeep} from 'lodash';
@@ -122,7 +119,7 @@ export class StudiesDashboardComponent {
     },
     */
     {
-      showIf: (study) => this.statusIs(study, [StudyStatus.IN_PROGRESS]),
+      showIf: (study) => this.statusIs(study, [StudyStatus.IN_PROGRESS, StudyStatus.OPEN_FOR_ENROLLMENT]),
       buttonIcon: 'stop',
       buttonLabel: 'Abandon study...',
       tooltipText: 'Set the status of <study_title> to "Abandoned"',
