@@ -6,7 +6,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {RouterTestingModule} from '@angular/router/testing';
-import {ApiService, MockEnvironment, mockStudies} from 'sartography-workflow-lib';
+import {ApiService, MockEnvironment, mockStudies} from 'cr-connect-workflow-lib';
 import {StudiesComponent} from './studies.component';
 
 describe('StudiesComponent', () => {

@@ -18,7 +18,7 @@ import {
   mockWorkflowTask0,
   mockWorkflowTask1,
   ToFormlyPipe
-} from 'sartography-workflow-lib';
+} from 'cr-connect-workflow-lib';
 import {WorkflowFormComponent} from './workflow-form.component';
 import {MatDialogModule} from '@angular/material/dialog';
 

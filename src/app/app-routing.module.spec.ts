@@ -21,7 +21,7 @@ import {FormlyModule} from '@ngx-formly/core';
 import {FormlyMaterialModule} from '@ngx-formly/material';
 import {ChartsModule} from 'ng2-charts';
 import {MarkdownModule} from 'ngx-markdown';
-import {ApiService, MockEnvironment, SessionRedirectComponent, ToFormlyPipe} from 'sartography-workflow-lib';
+import {ApiService, MockEnvironment, SessionRedirectComponent, ToFormlyPipe} from 'cr-connect-workflow-lib';
 import {routes} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {DashboardComponent} from './dashboard/dashboard.component';

@@ -7,7 +7,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {RouterTestingModule} from '@angular/router/testing';
-import {ApiService, MockEnvironment} from 'sartography-workflow-lib';
+import {ApiService, MockEnvironment} from 'cr-connect-workflow-lib';
 import {APP_BASE_HREF} from '@angular/common';
 
 describe('DocumentHistoryComponent', () => {
@@ -43,4 +43,3 @@ describe('DocumentHistoryComponent', () => {
   });
 */
 });
-

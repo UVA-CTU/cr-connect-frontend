@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
-import {mockStudy0, WorkflowStatus} from 'sartography-workflow-lib';
+import {mockStudy0, WorkflowStatus} from 'cr-connect-workflow-lib';
 import { ReviewProgressComponent } from './review-progress.component';
 
 describe('ReviewProgressComponent', () => {

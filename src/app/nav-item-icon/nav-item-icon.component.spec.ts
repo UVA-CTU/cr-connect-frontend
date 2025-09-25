@@ -7,7 +7,7 @@ import {
   mockWorkflowMeta0, NavItemType, TaskEvent, WorkflowNavItem,
   WorkflowStatus,
   WorkflowTaskState,
-} from 'sartography-workflow-lib';
+} from 'cr-connect-workflow-lib';
 import {NavItemIconComponent} from './nav-item-icon.component';
 
 describe('NavItemIconComponent', () => {

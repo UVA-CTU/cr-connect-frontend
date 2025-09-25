@@ -6,7 +6,7 @@ import {
   StudyStatus,
   StudyStatusLabels,
   Study,
-} from 'sartography-workflow-lib';
+} from 'cr-connect-workflow-lib';
 
 
 export interface StudiesByStatus {

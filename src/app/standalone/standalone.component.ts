@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {Router } from '@angular/router';
-import {WorkflowSpec, ApiService} from 'sartography-workflow-lib';
+import {WorkflowSpec, ApiService} from 'cr-connect-workflow-lib';
 
 @Component({
   selector: 'app-standalone',

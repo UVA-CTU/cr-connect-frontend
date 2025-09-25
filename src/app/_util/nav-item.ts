@@ -5,7 +5,7 @@ import {
   WorkflowMetadata,
   WorkflowTaskState,
   WorkflowCategoryMetadata
-} from 'sartography-workflow-lib';
+} from 'cr-connect-workflow-lib';
 
 // Decides which categories and workflows to display
 export const shouldDisplayItem= (listItem: WorkflowMetadata|WorkflowCategoryMetadata): boolean => {

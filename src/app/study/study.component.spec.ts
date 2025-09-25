@@ -16,7 +16,7 @@ import {
   mockStudy0, mockUser0, mockUsers, StudyAssociate,
   StudyStatus,
   StudyStatusLabels, UserService
-} from 'sartography-workflow-lib';
+} from 'cr-connect-workflow-lib';
 import {DashboardComponent} from '../dashboard/dashboard.component';
 import {LoadingComponent} from '../loading/loading.component';
 import {StudyComponent} from './study.component';

@@ -9,7 +9,7 @@ import {
   TaskEvent,
   User,
   UserService
-} from 'sartography-workflow-lib';
+} from 'cr-connect-workflow-lib';
 import {TaskLane} from '../_interfaces/task-lane';
 import {StudiesByStatus} from '../studies/studies.component';
 import {MatDialog} from '@angular/material/dialog';

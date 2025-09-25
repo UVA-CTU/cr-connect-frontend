@@ -21,7 +21,7 @@ import {
   StudyStatus,
   StudyStatusLabels,
   mockUser0,
-} from 'sartography-workflow-lib';
+} from 'cr-connect-workflow-lib';
 import {ConfirmStudyStatusDialogData} from '../_interfaces/dialog-data';
 import {StudyAction} from '../_interfaces/study-action';
 import {StudiesDashboardComponent} from './studies-dashboard.component';

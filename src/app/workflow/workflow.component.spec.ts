@@ -33,7 +33,7 @@ import {
   WorkflowNavItem,
   WorkflowTaskState,
   WorkflowTaskType
-} from 'sartography-workflow-lib';
+} from 'cr-connect-workflow-lib';
 import { LoadingComponent } from '../loading/loading.component';
 import { WorkflowFilesComponent } from '../workflow-files/workflow-files.component';
 import { WorkflowFormComponent } from '../workflow-form/workflow-form.component';
@@ -400,5 +400,3 @@ describe('WorkflowComponent', () => {
     expect(component.isOnlyTask()).toBeFalse();
   });
 });
-
-

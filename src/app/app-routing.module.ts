@@ -1,6 +1,6 @@
 import {Injectable, NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
-import {AppEnvironment, SessionRedirectComponent} from 'sartography-workflow-lib';
+import {AppEnvironment, SessionRedirectComponent} from 'cr-connect-workflow-lib';
 import {environment} from '../environments/environment.runtime';
 import {HelpComponent} from './help/help.component';
 import {HomeComponent} from './home/home.component';

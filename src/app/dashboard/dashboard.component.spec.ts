@@ -13,7 +13,7 @@ import {
   mockWorkflowMeta0, mockWorkflowMeta1,
   WorkflowState,
   WorkflowStatus, ApiService, MockEnvironment, mockWorkflowSpecCategory0, mockCategoryMetaData
-} from 'sartography-workflow-lib';
+} from 'cr-connect-workflow-lib';
 import {DashboardComponent} from './dashboard.component';
 import {browser} from "protractor";
 

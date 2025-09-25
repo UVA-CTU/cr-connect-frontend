@@ -14,7 +14,7 @@ import {
   mockFileMeta0,
   mockFileMeta1,
   mockWorkflow0
-} from 'sartography-workflow-lib';
+} from 'cr-connect-workflow-lib';
 
 import {WorkflowFilesComponent} from './workflow-files.component';
 

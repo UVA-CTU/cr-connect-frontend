@@ -1,6 +1,6 @@
 import {APP_BASE_HREF} from '@angular/common';
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
-import {MockEnvironment} from 'sartography-workflow-lib';
+import {MockEnvironment} from 'cr-connect-workflow-lib';
 import {FooterComponent} from './footer.component';
 
 describe('FooterComponent', () => {

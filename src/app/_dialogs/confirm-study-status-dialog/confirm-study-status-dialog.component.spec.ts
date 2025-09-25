@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import {MAT_DIALOG_DATA, MatDialogModule, MatDialogRef} from '@angular/material/dialog';
 import {MatIconModule} from '@angular/material/icon';
 import {BrowserAnimationsModule, NoopAnimationsModule} from '@angular/platform-browser/animations';
-import {mockFileMeta0, mockStudy0} from 'sartography-workflow-lib';
+import {mockFileMeta0, mockStudy0} from 'cr-connect-workflow-lib';
 import {ConfirmStudyStatusDialogData} from '../../_interfaces/dialog-data';
 import {ConfirmStudyStatusDialogComponent} from './confirm-study-status-dialog.component';
 import {StudyAction} from '../../_interfaces/study-action';

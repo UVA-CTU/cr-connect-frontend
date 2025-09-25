@@ -1,5 +1,5 @@
 import {Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges} from '@angular/core';
-import {Workflow, WorkflowNavItem, WorkflowTask, WorkflowTaskState, WorkflowTaskType} from 'sartography-workflow-lib';
+import {Workflow, WorkflowNavItem, WorkflowTask, WorkflowTaskState, WorkflowTaskType} from 'cr-connect-workflow-lib';
 import {shouldDisableNavItem, shouldDisplayNavItem} from '../_util/nav-item';
 
 @Component({

@@ -43,7 +43,7 @@ import {
   SartographyFormsModule,
   SartographyPipesModule,
   SartographyWorkflowLibModule
-} from 'sartography-workflow-lib';
+} from 'cr-connect-workflow-lib';
 
 import {environment} from '../environments/environment.runtime';
 import {AppRoutingModule} from './app-routing.module';

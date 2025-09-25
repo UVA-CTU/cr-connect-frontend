@@ -22,7 +22,7 @@ import {
   WorkflowTask,
   WorkflowTaskState,
   PythonService
-} from 'sartography-workflow-lib';
+} from 'cr-connect-workflow-lib';
 import {FormlyFieldConfig, FormlyFormOptions} from '@ngx-formly/core';
 import { Location } from '@angular/common';
 import * as setObjectProperty from 'lodash/set';

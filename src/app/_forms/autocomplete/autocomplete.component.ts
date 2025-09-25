@@ -4,7 +4,7 @@ import {UntypedFormControl} from "@angular/forms";
 import {debounceTime, startWith, switchMap} from "rxjs/operators";
 import {EMPTY, Observable} from "rxjs";
 import {MatAutocompleteSelectedEvent} from "@angular/material/autocomplete";
-import {ApiService} from "sartography-workflow-lib";
+import {ApiService} from "cr-connect-workflow-lib";
 
 @Component({
   selector: 'app-autocomplete',

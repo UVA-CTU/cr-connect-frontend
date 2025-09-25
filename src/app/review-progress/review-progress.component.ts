@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import {Study, WorkflowStatus} from 'sartography-workflow-lib';
+import {Study, WorkflowStatus} from 'cr-connect-workflow-lib';
 
 @Component({
   selector: 'app-review-progress',
@@ -44,7 +44,3 @@ export class ReviewProgressComponent implements OnInit {
     }
   }
 }
-
-
-
-
