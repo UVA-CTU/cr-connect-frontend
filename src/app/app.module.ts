@@ -92,6 +92,8 @@ import { TaskLogsComponent } from './task-logs/task-logs.component';
 import * as Sentry from '@sentry/angular';
 import {Router} from '@angular/router';
 import { DocumentHistoryComponent } from './document-history/document-history.component';
+import { StatusMessageComponent } from './status-message/status-message.component';
+import { AlternateMessageComponent } from './alternate-message/alternate-message.component';
 
 (document.defaultView as any).hljs = hljs;
 
@@ -215,6 +217,8 @@ export function markedOptionsFactory(): MarkedOptions {
         AutocompleteComponent,
         TaskLogsComponent,
         DocumentHistoryComponent,
+        StatusMessageComponent,
+        AlternateMessageComponent,
     ],
     imports: [
         BrowserAnimationsModule,

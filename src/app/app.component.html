@@ -1,9 +1,24 @@
 <div class="mat-typography">
   <app-navbar (userChanged)="reload()"></app-navbar>
-  <router-outlet *ngIf="!loading; else loadingMessage"></router-outlet>
+
+  <ng-container *ngIf="!loading; else loadingMessage">
+
+    <ng-container *ngIf="showStatus">
+      <app-status-message [statusMessage]="statusMessage"></app-status-message>
+    </ng-container>
+
+    <ng-container *ngIf="!showAlternate; else alternateBlock">
+      <router-outlet></router-outlet>
+    </ng-container>
+
+    <ng-template #alternateBlock>
+      <app-alternate-message [alternateMessage]="alternateMessage"></app-alternate-message>
+    </ng-template>
+
+  </ng-container>
+
   <app-footer></app-footer>
 </div>
-
 
 <ng-template #loadingMessage>
   <app-loading></app-loading>
