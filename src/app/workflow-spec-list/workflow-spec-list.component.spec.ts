@@ -4,7 +4,7 @@ import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import {MatListModule} from '@angular/material/list';
 import {Router} from '@angular/router';
 import {RouterTestingModule} from '@angular/router/testing';
-import {ApiService, MockEnvironment, mockWorkflowSpecs} from 'sartography-workflow-lib';
+import {ApiService, MockEnvironment, mockWorkflowSpecs} from 'cr-connect-workflow-lib';
 import {WorkflowSpecListComponent} from './workflow-spec-list.component';
 
 describe('WorkflowSpecListComponent', () => {

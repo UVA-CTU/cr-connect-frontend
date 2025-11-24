@@ -1,5 +1,5 @@
 import {AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild} from '@angular/core';
-import {ApiService, TaskLogQuery} from 'sartography-workflow-lib';
+import {ApiService, TaskLogQuery} from 'cr-connect-workflow-lib';
 import {TaskLogDataSource} from './task-logs-data-source';
 import input from 'postcss/lib/input';
 import {MatPaginator} from '@angular/material/paginator';
@@ -87,4 +87,3 @@ export class TaskLogsComponent implements OnInit, AfterViewInit {
     window.location.href=this.query.download_url
   }
 }
-

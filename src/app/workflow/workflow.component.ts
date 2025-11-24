@@ -18,7 +18,7 @@ import {
   WorkflowTask,
   WorkflowTaskState,
   WorkflowTaskType,
-} from 'sartography-workflow-lib';
+} from 'cr-connect-workflow-lib';
 
 import {
   WorkflowResetDialogComponent,

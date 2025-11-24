@@ -7,7 +7,7 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {Router, RouterEvent} from '@angular/router';
 import {RouterTestingModule} from '@angular/router/testing';
 import {of, ReplaySubject} from 'rxjs';
-import {ApiService, MockEnvironment, mockUser0, mockUsers, UserService, mockUser1} from 'sartography-workflow-lib';
+import {ApiService, MockEnvironment, mockUser0, mockUsers, UserService, mockUser1} from 'cr-connect-workflow-lib';
 import {LoadingComponent} from '../loading/loading.component';
 import {NavbarComponent} from './navbar.component';
 import 'zone.js/testing';

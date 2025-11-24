@@ -8,7 +8,7 @@ import {
   StudyStatusLabels,
   Study,
   Workflow, StudyAssociate, UserService, ProgressStatusLabels, ProgressStatus
-} from 'sartography-workflow-lib';
+} from 'cr-connect-workflow-lib';
 import {UserPreferencesService} from '../user-preferences.service';
 
 @Component({

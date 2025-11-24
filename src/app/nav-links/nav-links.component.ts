@@ -1,7 +1,7 @@
 import {Component, Inject, Input} from '@angular/core';
 import {NavItem} from '../_interfaces/nav-item';
 import {Router} from '@angular/router';
-import {ApiService, AppEnvironment, UserService, User} from 'sartography-workflow-lib';
+import {ApiService, AppEnvironment, UserService, User} from 'cr-connect-workflow-lib';
 import {UntypedFormGroup} from "@angular/forms";
 import {FormlyFieldConfig} from "@ngx-formly/core";
 

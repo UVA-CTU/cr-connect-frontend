@@ -19,7 +19,7 @@ services:
     container_name: pb
     depends_on:
        - db
-    image: quay.io/sartography/protocol-builder-mock:$E2E_TAG
+    image: ghcr.io/uva-ctu/protocol-builder-mock:$E2E_TAG
     environment:
       - APPLICATION_ROOT=/
       - CORS_ALLOW_ORIGINS=localhost:5000,backend:5000,localhost:5002,bpmn:5002,localhost:4200,frontend:4200
@@ -39,7 +39,7 @@ services:
     depends_on:
        - db
        - pb
-    image: quay.io/sartography/cr-connect-workflow:$E2E_TAG
+    image: ghcr.io/uva-ctu/cr-connect-workflow:$E2E_TAG
     environment:
       - APPLICATION_ROOT=/
       - CORS_ALLOW_ORIGINS=localhost:5002,bpmn:5002,localhost:4200,frontend:4200

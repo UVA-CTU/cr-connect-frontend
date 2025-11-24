@@ -1,4 +1,4 @@
-import {AppEnvironment} from 'sartography-workflow-lib';
+import {AppEnvironment} from 'cr-connect-workflow-lib';
 
 declare var ENV;
 

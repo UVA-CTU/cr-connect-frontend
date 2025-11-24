@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Study} from 'sartography-workflow-lib';
+import {Study} from 'cr-connect-workflow-lib';
 
 @Component({
   selector: 'app-study-warnings',

@@ -1,6 +1,6 @@
 import {CollectionViewer, DataSource} from '@angular/cdk/collections';
 import {BehaviorSubject, Observable, of} from 'rxjs';
-import {ApiService, TaskLog, TaskLogQuery} from 'sartography-workflow-lib';
+import {ApiService, TaskLog, TaskLogQuery} from 'cr-connect-workflow-lib';
 import {catchError, finalize} from 'rxjs/operators';
 
 

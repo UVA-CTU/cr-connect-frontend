@@ -1,4 +1,4 @@
-import {Study} from 'sartography-workflow-lib';
+import {Study} from 'cr-connect-workflow-lib';
 import {FormlyFieldConfig} from '@ngx-formly/core';
 
 export type StudyActionBoolean = (study: Study) => boolean;

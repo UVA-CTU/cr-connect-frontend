@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { StandaloneComponent } from './standalone.component';
-import {ApiService, MockEnvironment} from 'sartography-workflow-lib';
+import {ApiService, MockEnvironment} from 'cr-connect-workflow-lib';
 import {APP_BASE_HREF} from '@angular/common';
 import {HttpClientTestingModule} from '@angular/common/http/testing';
 import {RouterTestingModule} from '@angular/router/testing';

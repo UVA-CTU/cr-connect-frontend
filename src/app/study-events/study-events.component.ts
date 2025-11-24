@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {Study, StudyEventType, StudyEvent, StudyEventTypeLabels, StudyStatus, StudyStatusLabels} from 'sartography-workflow-lib';
+import {Study, StudyEventType, StudyEvent, StudyEventTypeLabels, StudyStatus, StudyStatusLabels} from 'cr-connect-workflow-lib';
 
 @Component({
   selector: 'app-study-events',

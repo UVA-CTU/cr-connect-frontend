@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {ApiService, WorkflowSpec} from 'sartography-workflow-lib';
+import {ApiService, WorkflowSpec} from 'cr-connect-workflow-lib';
 
 @Component({
   selector: 'app-workflow-spec-list',

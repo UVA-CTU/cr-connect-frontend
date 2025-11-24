@@ -1,8 +1,10 @@
-name: Create and publish a Docker image
+name: Create and publish a Docker image from the dev branch
 
 on:
   push:
-    branches: ['main']
+    branches: ['dev']
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 env:
   REGISTRY: ghcr.io

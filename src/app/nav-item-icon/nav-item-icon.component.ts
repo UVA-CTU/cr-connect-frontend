@@ -5,7 +5,7 @@ import {
   WorkflowMetadata,
   WorkflowNavItem,
   WorkflowStatus
-} from 'sartography-workflow-lib';
+} from 'cr-connect-workflow-lib';
 
 @Component({
   selector: 'app-nav-item-icon',

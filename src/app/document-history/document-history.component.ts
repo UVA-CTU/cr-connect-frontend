@@ -1,5 +1,5 @@
 import {Component, Input, OnInit, OnChanges, AfterViewInit, SimpleChanges} from '@angular/core';
-import {ApiService, DocumentDirectory, Study, FileMeta} from 'sartography-workflow-lib';
+import {ApiService, DocumentDirectory, Study, FileMeta} from 'cr-connect-workflow-lib';
 import {MatTreeNestedDataSource} from "@angular/material/tree";
 import {NestedTreeControl} from "@angular/cdk/tree";
 

@@ -7,7 +7,7 @@ import {
   WorkflowSpecCategory,
   WorkflowState,
   WorkflowStatus,
-} from 'sartography-workflow-lib';
+} from 'cr-connect-workflow-lib';
 import {shouldDisplayItem} from '../_util/nav-item';
 import {UserPreferencesService} from "../user-preferences.service";
 

@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import {MatIconModule} from '@angular/material/icon';
 import {MatListModule} from '@angular/material/list';
-import {mockWorkflow0, mockWorkflowTask0} from 'sartography-workflow-lib';
+import {mockWorkflow0, mockWorkflowTask0} from 'cr-connect-workflow-lib';
 import {WorkflowStepsMenuListComponent} from './workflow-steps-menu-list.component';
 
 describe('WorkflowStepsMenuListComponent', () => {

@@ -1,5 +1,5 @@
 import {Component, Inject} from '@angular/core';
-import {AppEnvironment} from 'sartography-workflow-lib';
+import {AppEnvironment} from 'cr-connect-workflow-lib';
 
 @Component({
   selector: 'app-footer',

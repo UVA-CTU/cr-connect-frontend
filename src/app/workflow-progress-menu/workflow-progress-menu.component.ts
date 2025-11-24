@@ -1,5 +1,5 @@
 import {Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges} from '@angular/core';
-import {NavItemType, WorkflowNavItem, WorkflowTask, WorkflowTaskState} from 'sartography-workflow-lib';
+import {NavItemType, WorkflowNavItem, WorkflowTask, WorkflowTaskState} from 'cr-connect-workflow-lib';
 
 @Component({
   selector: 'app-workflow-progress-menu',

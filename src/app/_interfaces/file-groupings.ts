@@ -1,4 +1,4 @@
-import {FileMeta} from 'sartography-workflow-lib/lib/types/file';
+import {FileMeta} from 'cr-connect-workflow-lib/lib/types/file';
 
 export interface FileGroup {
   group: string;

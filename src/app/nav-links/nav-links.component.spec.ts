@@ -3,7 +3,7 @@ import {HttpClientTestingModule, HttpTestingController} from '@angular/common/ht
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import {Router} from '@angular/router';
 import {RouterTestingModule} from '@angular/router/testing';
-import {ApiService, MockEnvironment, mockUser0, mockUsers, UserService} from 'sartography-workflow-lib';
+import {ApiService, MockEnvironment, mockUser0, mockUsers, UserService} from 'cr-connect-workflow-lib';
 import {NavLinksComponent} from './nav-links.component';
 import {NavbarComponent} from "../navbar/navbar.component";
 import {MatAutocompleteModule} from "@angular/material/autocomplete";
