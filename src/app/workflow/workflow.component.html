@@ -70,7 +70,7 @@
       This task is locked.
       <ng-container [ngSwitch]=currentTask.state>
         <span *ngSwitchCase="taskStates.LOCKED">
-          It must be completed by someone in the {{currentTask.lane}} group.
+          It must be completed by someone in the {{currentTask && currentTask.lane}} group.
         </span>
         <span *ngSwitchCase="taskStates.COMPLETED">
           It was already completed, and is in a read only state.
