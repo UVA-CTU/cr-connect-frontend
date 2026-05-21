@@ -48,3 +48,7 @@ Thumbs.db
 
  # SonarCloud
 /.scannerwork/
+
+# Claude Code local config
+.claude/
+CLAUDE.md
